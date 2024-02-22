@@ -35,7 +35,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // 1)Global  Middlewares
 
-app.use(helmet());
+// app.use(helmet());
 
 app.use(compression());
 
